@@ -3091,6 +3091,15 @@ public final class Settings {
           */
          public static final String VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
 
+         /**
+          * Sweep2Wake
+          * 0 - Disabled
+          * 1 - Enabled
+          * 2 - Enabled without backlit
+          * @hide
+          */
+         public static final String SWEEP2WAKE = "sweep2wake";
+
         /**
          * toggle to "fix" the following: (found in NotificationManagerService)
          *  new in 4.2: if there was supposed to be a sound and we're in vibrate mode,
